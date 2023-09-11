@@ -8,10 +8,7 @@ html{
 @font-face{
     font-family: "vazir";
     src: 
-        url("../../font/vazir-font-v16.1.0/Vazir.ttf") format("truetype"),
-        url("../../font/vazir-font-v16.1.0/Vazir.woff") format("woff"),
-        url("../../font/vazir-font-v16.1.0/Vazir.woff2") format("woff2"),
-        url("../../font/vazir-font-v16.1.0/Vazir.eot") format("eot");
+        url("C:\Users\Mahtab\Dropbox\My PC (LAPTOP-4CA9N56L)\Desktop\RAYA\estatic\fonts\vazir-font-v16.1.0\Vazir-Medium.ttf"),
 }
 * {
     margin: 0;
@@ -160,7 +157,3 @@ footer .footer-content h4 {
 
 footer .footer-content p {
     font-size: 1.2rem; }
-
-  /* footer */
-
-

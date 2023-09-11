@@ -1,0 +1,185 @@
+#checkout__body {
+    margin-top: 3rem;
+  }
+  
+  #checkout__body .main-grid .right {
+    border: none;
+    display: grid;
+    gap: 2rem;
+  }
+  
+  #checkout__body .main-grid article {
+    padding: 3rem 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid var(--clr-grey-400);
+  }
+  
+  .main-grid .user__address {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-grid .user__address .user-address__body {
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .main-grid .user__address .user-address__body .head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .main-grid .user__address .user-address__body .head h3 {
+    font-size: clamp(1.2rem, 1.5vw + 1rem, 2rem);
+  }
+  
+  .main-grid .user__address .user-address__body .head a {
+    padding: clamp(.5rem, .5vw + .5rem, 1rem);
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+  }
+  
+  .main-grid .user__address .user-address__body .head a:is(:hover, :focus) {
+    background-color: grey;
+    color: var(--clr-100);
+  }
+  
+  .main-grid .user__address .user-address__body ul {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+  }
+  
+  .main-grid .user__address .user-address__body ul li {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row-reverse;
+    gap: .5rem;
+    color: grey;
+  }
+  .main-grid .user__address .user-address__body ul li i {
+    font-size: 1.2rem;
+  }
+  
+  .main-grid .user__address .user-address__body ul li p {
+    font-size: clamp(.8rem, .5vw + 1rem, 1.3rem);
+  }
+  
+  .main-grid .user__address .user-address__body ul li p span {
+    color: var(--clr-900);
+  }
+  
+  .main-grid .user__payment {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .main-grid .user__payment .user__product {
+    display: grid;
+    gap: .5rem;
+  }
+  
+  .main-grid .user__payment .user__product h3 {
+    display: flex;
+    gap: .3rem;
+    font-size: clamp(1.2rem, 1.5vw + 1rem, 2rem);
+    align-items: center;
+    color: grey;
+  }
+  
+  .main-grid .user__payment .user__product .row {
+    display: flex;
+    gap: .5rem;
+    overflow-x: auto;
+  }
+  
+  .main-grid .user__payment .user__product .row .product__img {
+    width: 6rem;
+    margin-bottom: 1rem;
+    position: relative;
+    flex-shrink: 0 !important;
+  }
+  
+  .main-grid .user__payment .user__product .row .product__img img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .main-grid .user__payment .user__product .row .product__img::before {
+    content: "1";
+    position: absolute;
+    bottom: .3rem;
+    left: .3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--bg-clr-red);
+    color: var(--clr-100);
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-grid .user__payment .how-to__pay {
+    display: grid;
+    gap: .5rem;
+  }
+  
+  .main-grid .user__payment .how-to__pay h3 {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    color: grey;
+    font-size: clamp(1.2rem, 1.5vw + 1rem, 2rem);
+  }
+  
+  .main-grid .user__payment .how-to__pay form {
+    display: grid;
+    gap: .5rem;
+  }
+  
+  .main-grid .user__payment .how-to__pay form .payment__box {
+    display: grid;
+    gap: .5rem;
+  }
+  
+  .main-grid .user__payment .how-to__pay form .payment__box .title {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+  }
+  
+  .main-grid .user__payment .how-to__pay form .payment__box .title input[type="radio"]{
+    accent-color: var(--bg-clr-red);
+  }
+  
+  .main-grid .user__payment .how-to__pay form .payment__box .title label {
+    font-size: clamp(1.2rem, calc(1vw + 1rem), 1.6rem);
+  }
+  
+  .main-grid .user__payment .how-to__pay form .payment__box p {
+    font-size: clamp(.8rem, calc(.5vw + 1rem), 1.3rem);
+    padding-right: 1.32rem;
+  }
